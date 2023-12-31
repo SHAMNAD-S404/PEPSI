@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.dropdown{
+ 
+ height: 7px;
+ width: 10px;
+ display: inline-block;
+}
+li,a,button {
+    color: #edf0f1;
+    text-decoration: none;
+}
+.header{
+    background-color: #0025ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.logo-head{
+    cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+    margin-left:-29.9rem;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+button{
+    background-color: #0025ff;
+    border: solid 2.2px;
+    border-radius: 50px;
+    margin-right: -102px;
+    cursor: pointer;
+    width: 206px;
+    height: 34px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    padding: 3px 27px;
+
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-left: -6.5rem;
+}
+.intro-video{
+    width: 100%;
+    height: 784px;
+    
+}
+.video1{
+    width: 100%;
+   height: 100%;   
+}
+.section{
+    width: 100%;
+    height: 386px;
+    background-color: black;
+     color: #edf0f1;  
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+h2{
+    font-size: 95px;
+}
+h3{
+    font-size: 64px;
+    text-align: center;
+    margin-top: -30px
+}
+.follow-along{
+    font-size: 58px;
+    line-height: 52px;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    background-color: #0025ff;
+    cursor: pointer;
+    border-radius: 0;
+    width: 29.6rem;
+    height: 7rem;
+    padding-top: 31px;
+    margin-left: 348px;
+    margin-top: 34px;
+    padding-left: 53px;
+}
+.messi_photo{
+    width: 100%;
+    height: 751px;
+    
+   overflow: hidden;
+}
+.messi-image{
+   background-size: cover;
+   width: 100.3%;
+}
+.footer-video{
+    width: 100%;
+    height: 784px 
+}
+.video2{
+    width: 100%;
+    height: 100%;
+}
+.Anim_div{
+    width: 100%;
+    height: 128px;
+    background-color: black;
+    margin-top: -1px;
+}
+h4{
+    color: #0025ff;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px
+}
+.social_contents{
+    width: 100%;
+    height: 262px;
+    background-color: black;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+    overflow: hidden;
+   
+    
+}
+
+.links{
+    width: 208px;
+    height: 208px;
+    
+    transition: all 0.3s ease-in-out;
+}
+.links:hover{
+    transform: rotate(8deg) scale(1.2) ;
+    opacity: 0.6;
+      
+}
+.image_icons{
+    border: 3px solid #1636ff;
+    padding-bottom: 2em;
+    height: 214px ;
+    overflow: hidden;
+   
+}
+.image_icons{
+    display: flex;
+}
+
+.tiktok_png , .thread_png , .youtube_png , .facebook_png , .twitter_png , .instagram_png
+{
+    display: flex;
+    margin-top: -2.9rem;
+    width: 2.2rem;
+    margin-left: 15px;
+    position: absolute;
+}
+.footer{
+    background-color: #0025ff;
+    color: #edf0f1;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.footer_logo{
+    width: 101px;
+    height: 101px;
+    margin-right: 65px;
+}
+.f_links{
+width: 2.3em;
+
+}
+
+footer li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 33px;
+}
+.footer_div{
+    margin-left:38px ; 
+}
+.footer_links{
+    margin-left: 209px;
+    padding-left: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 19px;
+   
+}
+
+.footer2{
+    margin-right: 16px;
+    padding-left: 27px;
+}
+.footer1{
+    margin-left: -24px;
+    padding-left: 0;
+}
+.footer3{
+    margin-left: 69px;
+    margin-right: -67px
+}
+.cookies{
+    display: flex;
+    flex-direction: column;
+    margin-top: -99px;
+    align-items: end;
+}
+.last_cookies{
+    color: white;
+    font-size: 15px;
+    margin-top: 52px;
+    text-decoration: underline;
+    margin-right: 53px;
+    width: 132px;
+}
+
+.insta_div, .twitter_div, .facebook_div, .youtube_div, .tiktok_div,
+.thread_div {
+    border: 0px solid transparent;
+    height: 208px;
+    overflow: hidden;
+}
+.fade{
+    transition: all 0.1s ease-in-out;
+}
+.fade:hover{
+    opacity: 0.7;
+}
+.footer_logo:hover,
+.logo:hover{
+    
+    animation: animate 2s infinite;
+}
+@keyframes animate
+{
+  from
+  {
+    transform: scale(1);
+  }
+  14%
+  {
+    transform: scale(1.2);
+  }
+  28%
+  {
+    transform: scale(1);
+  }
+  42%
+  {
+    transform: scale(1.2);
+  }
+  70%
+  {
+    transform: scale(1);
+  }
+}
+button{
+    transition: all 0.1s;
+}
+button:hover{
+    background-color:#fff;
+    color:#0025ff;
+    transform: scale(1);
+    
+}
+/*RESPONSIVE CODE*/
+@media (min-width:475px){
+}
+
